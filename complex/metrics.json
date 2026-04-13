@@ -1,0 +1,11 @@
+{
+    "system_name": "Mainframe_Alpha",
+    "simple_logs": ["User login", "Connection reset", 500, "Disk full"],
+    "thresholds": {"cpu": 80, "memory": 90, "disk": "unknown"},
+    "detailed_stats": [
+        {"id": 1, "cpu": 45},
+        {"id": 2, "cpu": "95"},
+        "LOG_ERROR_NOT_A_DICT",
+        {"id": 3, "cpu": 82}
+    ]
+}
